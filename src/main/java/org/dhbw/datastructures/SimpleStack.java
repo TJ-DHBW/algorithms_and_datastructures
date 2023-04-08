@@ -1,9 +1,17 @@
 package org.dhbw.datastructures;
 
-public interface SimpleStack {
-    void push(String element);
+import org.dhbw.NotYetImplementedException;
 
-    String pop();
+public class SimpleStack {
+    void push(String element) {
+        throw new NotYetImplementedException();
+    }
 
-    int size();
+    String pop() {
+        throw new NotYetImplementedException();
+    }
+
+    int size() {
+        throw new NotYetImplementedException();
+    }
 }

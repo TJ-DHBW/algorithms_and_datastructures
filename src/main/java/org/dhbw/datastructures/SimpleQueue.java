@@ -1,10 +1,18 @@
 package org.dhbw.datastructures;
 
-public interface SimpleQueue {
-    void add(String element);
+import org.dhbw.NotYetImplementedException;
 
-    String poll();
+public class SimpleQueue {
+    void add(String element) {
+        throw new NotYetImplementedException();
+    }
 
-    int size();
+    String poll() {
+        throw new NotYetImplementedException();
+    }
+
+    int size() {
+        throw new NotYetImplementedException();
+    }
 
 }

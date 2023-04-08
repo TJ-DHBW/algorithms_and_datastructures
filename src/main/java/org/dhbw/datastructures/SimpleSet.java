@@ -1,11 +1,21 @@
 package org.dhbw.datastructures;
 
-public interface SimpleSet {
-    boolean add(String element);
+import org.dhbw.NotYetImplementedException;
 
-    boolean contains(String element);
+public class SimpleSet {
+    boolean add(String element) {
+        throw new NotYetImplementedException();
+    }
 
-    boolean remove(String element);
+    boolean contains(String element) {
+        throw new NotYetImplementedException();
+    }
 
-    int size();
+    boolean remove(String element) {
+        throw new NotYetImplementedException();
+    }
+
+    int size() {
+        throw new NotYetImplementedException();
+    }
 }
