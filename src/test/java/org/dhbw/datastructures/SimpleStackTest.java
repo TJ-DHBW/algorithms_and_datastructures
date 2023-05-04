@@ -67,8 +67,8 @@ class SimpleStackTest {
         String popped1 = simpleStack.pop();
         String popped2 = simpleStack.pop();
 
-        assertEquals("element1", popped1);
-        assertEquals("element2", popped2);
+        assertEquals("element2", popped1);
+        assertEquals("element1", popped2);
     }
 
     @Test
