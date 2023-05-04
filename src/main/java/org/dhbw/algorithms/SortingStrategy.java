@@ -1,7 +1,10 @@
 package org.dhbw.algorithms;
 
-import org.dhbw.datastructures.SimpleList;
-
 public interface SortingStrategy {
-    void sort(SimpleList listToSort);
+    /**
+     * Sorts an array in ascending order.
+     *
+     * @param arrayToSort The array to sort.
+     */
+    void sort(int[] arrayToSort);
 }
